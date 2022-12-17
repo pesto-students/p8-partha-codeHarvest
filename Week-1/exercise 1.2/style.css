@@ -80,3 +80,26 @@ header {
   margin-right: 2px;
   font-size: 14px;
 }
+
+
+/*====== main (table playlist) styles======*/
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  margin: 0 0 0 45px;
+}
+
