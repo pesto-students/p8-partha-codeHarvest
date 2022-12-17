@@ -103,3 +103,39 @@ table {
   margin: 0 0 0 45px;
 }
 
+/*======footer (Nav sticky bottom) styles======*/
+
+footer {
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  background: #42689b;
+  width: 100%;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.footer-content {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.footer-content p {
+  margin-bottom: 5px;
+}
+
+.footer-icons i {
+  padding: 0 40px;
+  color: white;
+  font-size: 16px;
+}
