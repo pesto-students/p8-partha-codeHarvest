@@ -1,0 +1,54 @@
+
+/*======reset styles======*/
+
+
+*,
+html,
+body {
+  font-family: lato;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+/*======header (hero top content) styles======*/
+
+
+header {
+  background: #454545;
+  color: white;
+}
+
+.header-player-content {
+  display: flex;
+  padding: 25px;
+}
+
+.header-player-logo {
+  margin: 0 45px;
+}
+
+.header-player-logo img {
+  width: 160px;
+  height: 160px;
+}
+
+.header-player-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content-info p {
+  font-size: 14px;
+}
+
+.header-player-icons {
+  display: flex;
+  align-content: center;
+  font-size: 12px;
+}
